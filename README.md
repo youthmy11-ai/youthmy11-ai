@@ -5,6 +5,7 @@ Practical, zero-bloat automation tools, Chrome extensions, and client-side micro
 ### Live Storefront & Interactive SaaS
 - **[ForgeSuite Hub & Storefront](https://youthmy11-ai.github.io/)** — Browse tools, verify licenses, or check out via direct USDT (BEP20/TRC20), Binance Pay, or PayPal.
 - **[CryptoBill Forge (Live Free Web App)](https://youthmy11-ai.github.io/cryptobill.html)** — Generate clean print/PDF freelancer invoices with offline QR payment codes and shareable payment links.
+- **[TokenCost Lab (Live Free Web App)](https://youthmy11-ai.github.io/tokencalc.html)** — Client-side LLM token counter, 7-model API cost calculator & 1-click CryptoBill client invoice exporter.
 
 ### Open-Core Tools & Extensions
 | Product | Edition | Repository | Purpose |
@@ -12,6 +13,7 @@ Practical, zero-bloat automation tools, Chrome extensions, and client-side micro
 | **AutoShorts Studio** | Community + Pro | [`autoshorts-studio`](https://github.com/youthmy11-ai/autoshorts-studio) | Automated 9:16/16:9/1:1 batch short-form video creator with SHA-256 deduplication and beat-milestone audio trimming |
 | **WebLead & Table Extractor** | Lite + Pro (MV3) | [`weblead-extractor`](https://github.com/youthmy11-ai/weblead-extractor) | Extract HTML tables, public emails, and structured links from any webpage cleanly to CSV/JSON |
 | **CryptoBill Forge** | Free + Pro | [`youthmy11-ai.github.io`](https://github.com/youthmy11-ai/youthmy11-ai.github.io) | Privacy-first browser invoice & payment link builder (zero server tracking) |
+| **TokenCost Lab** | Free Web Utility | [`tokencalc.html`](https://youthmy11-ai.github.io/tokencalc.html) | Estimate prompt tokens & monthly agent API budgets across GPT-5, Claude 4.5, Gemini 2.5 & DeepSeek V3 |
 
 ### Support & Licensing
 - Website & Checkout: https://youthmy11-ai.github.io/#pricing
