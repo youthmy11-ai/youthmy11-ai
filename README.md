@@ -8,6 +8,7 @@ Practical, zero-bloat automation tools, Chrome extensions, and client-side micro
 - **[TokenCost Lab (Live Free Web App)](https://youthmy11-ai.github.io/tokencalc.html)** — Client-side LLM token counter, 7-model API cost calculator & 1-click CryptoBill client invoice exporter.
 - **[JSON2Sheet & PII Masker (Live Free Web App)](https://youthmy11-ai.github.io/json2sheet.html)** — Flatten nested JSON APIs into CSV/TSV/Markdown tables with formula guard & PII redaction.
 - **[ScopeGuard SOW Builder (Live Free Web App)](https://youthmy11-ai.github.io/sowbuilder.html)** — Draft milestone contracts & Statements of Work with 1-click CryptoBill invoice export.
+- **[Calldata Lens (Live Free Web App)](https://youthmy11-ai.github.io/txdecode.html)** — Decode EVM hex calldata, detect unlimited approvals & inspect ERC-20/ERC-4626 payloads offline.
 
 ### Open-Core Tools & Extensions
 | Product | Edition | Repository | Purpose |
