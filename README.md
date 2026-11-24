@@ -1,34 +1,45 @@
 # ForgeSuite Studio (`youthmy11-ai`)
 
-Practical, zero-bloat automation tools, Chrome extensions, and client-side micro-SaaS utilities built for solo founders, video creators, and independent freelancers.
+[![Official MCP Registry: io.github.youthmy11-ai/forgesuite-mcp · v1.2.0 Active](https://img.shields.io/badge/MCP_Registry-io.github.youthmy11--ai%2Fforgesuite--mcp_·_v1.2.0_Active-10b981?style=for-the-badge)](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite)
 
-### Live Storefront, MCP Server & A2A/x402 Agent
+Practical, zero-bloat DevSecOps, Web3 security, brand launch, and client-side micro-SaaS utilities built for AI builders, traders, solo founders, and independent freelancers.
+
+### Official MCP Registry Server (`io.github.youthmy11-ai/forgesuite-mcp · v1.2.0 Active`)
+- **Registry Listing:** [`io.github.youthmy11-ai/forgesuite-mcp · v1.2.0 Active`](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite) · **Landing Page:** **[https://youthmy11-ai.github.io/mcp.html](https://youthmy11-ai.github.io/mcp.html)**
+- **1-Click IDE Install:**
+  - [⚡ **Install in VS Code**](vscode:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [⚡ **Install in VS Code Insiders**](vscode-insiders:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [📦 **Download `.mcpb` Bundle (`v1.2.0`)**](https://github.com/youthmy11-ai/youthmy11-ai.github.io/releases/download/v1.2.0/forgesuite-mcp.mcpb)
+- **1-Line CLI (`Node 20+`, `0` npm dependencies, `7` tools):**
+  ```bash
+  npx --yes github:youthmy11-ai/youthmy11-ai.github.io
+  ```
+  Exposes `envshield_scan`, `calldata_decode`, `tokencost_estimate`, `cryptobill_quote`, `evm_token_risk_scan`, `solana_mint_risk_scan`, and `brand_domain_handle_scan` for VS Code, Claude Code, Cursor, Antigravity & Windsurf.
+
+### 4-Tier Live Autonomous A2A + x402 Cloud Agent Fleet
+1. **[`@forge-data-finops`](https://market.near.ai/agents/forge-data-finops)** (`$0.15 USDC/call`, `<500ms`) — Nested JSON-to-CSV/Markdown + PII redaction, 8-model LLM budget benchmarks & CryptoBill/SOW URI generation.
+2. **[`@forge-token-guard`](https://market.near.ai/agents/forge-token-guard)** (`$0.25 USDC/call`, `<5s`) — Live EVM EIP-1967/1167 proxy, `SELFDESTRUCT`/honeypot scanner + Solana Token-2022 `permanentDelegate` & holder concentration scanner.
+3. **[`@forge-brand-checker`](https://market.near.ai/agents/forge-brand-checker)** (`$0.35 USDC/call`, `<12s`) — Official USPTO trademark screening, Port-43 WHOIS + RDAP + DoH domains, Google Play + iOS App Store & 10 developer/social handles.
+4. **[`@forge-ai-agent`](https://market.near.ai/agents/forge-ai-agent)** (`$5.00 USDC/call`, deep engineering) — Autonomous Solidity/Rust/Anchor smart contract security audits, PR diff reviews, full-stack fixes with tests & primary-source technical research.
+
+### Live Browser Web Apps & Security Scanners (`100% Client-Side`)
 - **[ForgeSuite Hub & Storefront](https://youthmy11-ai.github.io/)** — Browse tools, verify licenses, or check out via automatic on-chain **Solana SPL USDC** & **BSC USDT (BEP20)** plus TRC20, Binance Pay, or PayPal.
-- **[ForgeSuite MCP Server v1.2.0 (Free Node 20+ · 1-Command `npx`)](https://youthmy11-ai.github.io/mcp.html)** — Zero-dependency stdio MCP server (`npx --yes github:youthmy11-ai/youthmy11-ai.github.io`) exposing 7 tools (`envshield_scan`, `calldata_decode`, `tokencost_estimate`, `cryptobill_quote`, `evm_token_risk_scan`, `solana_mint_risk_scan`, `brand_domain_handle_scan`) for Claude Code, Cursor, Antigravity & Windsurf.
-- **[Forge AI Agent (Live A2A + x402 `$5 USDC/call`)](https://forge-ai-agent.market.near.ai/.well-known/agent-card.json)** — Autonomous smart contract security diff reviews, code fixes with tests & primary-source technical research via NEAR AI Agent Market (`https://forge-ai-agent.market.near.ai/a2a/v1`).
-- **[TokenGuard Scanner (Live Free + Pro Web App)](https://youthmy11-ai.github.io/tokenaudit.html)** — Live browser EVM proxy/bytecode & Solana SPL / Token-2022 authority/extension/holder concentration risk scanner with Pro batch watchlist export.
-- **[CryptoBill Forge (Live Free Web App)](https://youthmy11-ai.github.io/cryptobill.html)** — Generate clean print/PDF freelancer invoices with offline Solana Pay USDC / BEP20 / TRC20 QR payment codes and shareable payment links.
-- **[TokenCost Lab (Live Free Web App)](https://youthmy11-ai.github.io/tokencalc.html)** — Client-side LLM token counter, 7-model API cost calculator & 1-click CryptoBill client invoice exporter.
-- **[JSON2Sheet & PII Masker (Live Free Web App)](https://youthmy11-ai.github.io/json2sheet.html)** — Flatten nested JSON APIs into CSV/TSV/Markdown tables with formula guard & PII redaction.
-- **[ScopeGuard SOW Builder (Live Free Web App)](https://youthmy11-ai.github.io/sowbuilder.html)** — Draft milestone contracts & Statements of Work with 1-click CryptoBill invoice export.
-- **[Calldata Lens (Live Free Web App)](https://youthmy11-ai.github.io/txdecode.html)** — Decode EVM hex calldata, detect unlimited approvals & inspect ERC-20/ERC-4626 payloads offline.
-- **[EnvShield Secret Scanner (Live Free Web App)](https://youthmy11-ai.github.io/envshield.html)** — Detect & redact API keys, private keys, JWTs & DB credentials locally in browser memory.
+- **[TokenGuard Scanner](https://youthmy11-ai.github.io/tokenaudit.html)** — Live browser EVM proxy/bytecode & Solana SPL / Token-2022 authority/extension/holder concentration risk scanner + Pro 25-token batch watchlist (`$35` Bundle).
+  - **[Solana Token-2022 Risk & Permanent Delegate Scanner](https://youthmy11-ai.github.io/solana-token-2022-scanner.html)**
+  - **[EVM EIP-1967 Proxy, SELFDESTRUCT & Honeypot Bytecode Scanner](https://youthmy11-ai.github.io/evm-proxy-honeypot-scanner.html)**
+- **[BrandGuard Launch Scanner](https://youthmy11-ai.github.io/brandcheck.html)** — Browser 8-TLD domain (`.com`, `.io`, `.ai`, `.dev`, `.app`, `.org`, `.net`, `.xyz`), `npm`, `PyPI`, `GitHub`, `Bluesky` & iOS App Store scanner (`0–100` Readiness Score).
+- **[CryptoBill Forge](https://youthmy11-ai.github.io/cryptobill.html)** — Freelancer crypto & PayPal invoices with offline Solana Pay USDC / BEP20 / TRC20 QR payment codes and shareable `#inv=` links.
+- **[TokenCost Lab](https://youthmy11-ai.github.io/tokencalc.html)** · **[JSON2Sheet & PII Masker](https://youthmy11-ai.github.io/json2sheet.html)** · **[ScopeGuard SOW Builder](https://youthmy11-ai.github.io/sowbuilder.html)** · **[Calldata Lens](https://youthmy11-ai.github.io/txdecode.html)** · **[EnvShield Secret Scanner](https://youthmy11-ai.github.io/envshield.html)**
 
 ### Open-Core Tools & Extensions
 | Product | Edition | Repository | Purpose |
 | :--- | :--- | :--- | :--- |
-| **AutoShorts Studio v1.1.0** | Community + Pro | [`autoshorts-studio`](https://github.com/youthmy11-ai/autoshorts-studio) | Automated 9:16/16:9/1:1 batch short-form video creator with SHA-256 deduplication, beat-milestone trimming & beat-synced `.srt` captions |
-| **WebLead & Table Extractor v1.1.0** | Lite + Pro (MV3) | [`weblead-extractor`](https://github.com/youthmy11-ai/weblead-extractor) | Extract HTML tables, ARIA grids, Schema.org JSON-LD, public emails & links cleanly to CSV/JSON/Markdown |
-| **ForgeSuite MCP Server v1.2.0** | Free Open-Source | [`forgesuite-mcp.mjs`](https://youthmy11-ai.github.io/mcp.html) | 1-command `npx --yes github:youthmy11-ai/youthmy11-ai.github.io` zero-dep MCP server with 7 DevSecOps, EVM/Solana risk, domain/handle & billing tools |
-| **TokenGuard Scanner** | Free + Pro | [`tokenaudit.html`](https://youthmy11-ai.github.io/tokenaudit.html) | Browser EVM proxy/opcode & Solana Token-2022 rug/authority/holder risk scanner + 25-token batch watchlist |
-| **CryptoBill Forge** | Free + Pro | [`youthmy11-ai.github.io`](https://youthmy11-ai.github.io/cryptobill.html) | Privacy-first browser invoice & payment link builder (zero server tracking) |
-| **TokenCost Lab** | Free Web Utility | [`tokencalc.html`](https://youthmy11-ai.github.io/tokencalc.html) | Estimate prompt tokens & monthly agent API budgets across GPT-5, Claude 4.5, Gemini 2.5 & DeepSeek V3 |
-| **JSON2Sheet & PII Masker** | Free Web Utility | [`json2sheet.html`](https://youthmy11-ai.github.io/json2sheet.html) | Nested JSON flattener to CSV/Markdown with CSV formula guard & secret redaction |
-| **ScopeGuard SOW Builder** | Free Web Utility | [`sowbuilder.html`](https://youthmy11-ai.github.io/sowbuilder.html) | Freelance & Web3 milestone contract builder with 1-click CryptoBill USDT invoicing |
-| **Calldata Lens** | Free Web Utility | [`txdecode.html`](https://youthmy11-ai.github.io/txdecode.html) | Offline EVM calldata decoder & `MAX_UINT256` approval risk inspector |
-| **EnvShield** | Free Web Utility | [`envshield.html`](https://youthmy11-ai.github.io/envshield.html) | 100% browser-side `.env`, private key & API secret leak scanner and redactor |
+| **ForgeSuite MCP Server v1.2.0** | Free Open-Source (Registry Active) | [`mcp.html`](https://youthmy11-ai.github.io/mcp.html) | 1-click VS Code / `npx` zero-dep MCP server (`io.github.youthmy11-ai/forgesuite-mcp`) with 7 DevSecOps, EVM/Solana risk, brand & billing tools |
+| **AutoShorts Studio v1.1.0** | Community + Pro (`$19`) | [`autoshorts-studio`](https://github.com/youthmy11-ai/autoshorts-studio) | Automated 9:16/16:9/1:1 batch short-form video creator with SHA-256 deduplication, beat-milestone trimming & beat-synced `.srt` captions |
+| **WebLead & Table Extractor v1.1.0** | Lite + Pro MV3 (`$15`) | [`weblead-extractor`](https://github.com/youthmy11-ai/weblead-extractor) | Extract HTML tables, ARIA grids, Schema.org JSON-LD, public emails & links cleanly to CSV/JSON/Markdown |
+| **TokenGuard & BrandGuard** | Free + Pro (`$35` Bundle) | [`youthmy11-ai.github.io`](https://youthmy11-ai.github.io/tokenaudit.html) | Browser EVM proxy/opcode & Solana Token-2022 risk scanner + 8-TLD brand readiness matrix |
+| **CryptoBill Forge** | Free + Pro (`$15`) | [`cryptobill.html`](https://youthmy11-ai.github.io/cryptobill.html) | Privacy-first browser invoice & payment link builder (zero server tracking) |
 
 ### Support, AI Discovery & Licensing
 - Website & Checkout: https://youthmy11-ai.github.io/#pricing
+- Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite
 - Machine-Readable AI Index (`llms.txt`): https://youthmy11-ai.github.io/llms.txt
 - Contact / License Support: `youthmy11@gmail.com`
