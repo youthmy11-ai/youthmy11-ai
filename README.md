@@ -4,9 +4,10 @@ Practical, zero-bloat automation tools, Chrome extensions, and client-side micro
 
 ### Live Storefront, MCP Server & A2A/x402 Agent
 - **[ForgeSuite Hub & Storefront](https://youthmy11-ai.github.io/)** — Browse tools, verify licenses, or check out via automatic on-chain **Solana SPL USDC** & **BSC USDT (BEP20)** plus TRC20, Binance Pay, or PayPal.
-- **[ForgeSuite MCP Server (Free Offline Node 22+)](https://youthmy11-ai.github.io/mcp.html)** — Zero-dependency single-file stdio MCP server exposing `envshield_scan`, `calldata_decode`, `tokencost_estimate`, and `cryptobill_quote` for Claude Code, Cursor, Antigravity & Windsurf.
+- **[ForgeSuite MCP Server v1.1.0 (Free Node 22+)](https://youthmy11-ai.github.io/mcp.html)** — Zero-dependency single-file stdio MCP server exposing 6 tools (`envshield_scan`, `calldata_decode`, `tokencost_estimate`, `cryptobill_quote`, `evm_token_risk_scan`, `solana_mint_risk_scan`) for Claude Code, Cursor, Antigravity & Windsurf.
 - **[Forge AI Agent (Live A2A + x402 `$5 USDC/call`)](https://forge-ai-agent.market.near.ai/.well-known/agent-card.json)** — Autonomous smart contract security diff reviews, code fixes with tests & primary-source technical research via NEAR AI Agent Market (`https://forge-ai-agent.market.near.ai/a2a/v1`).
-- **[CryptoBill Forge (Live Free Web App)](https://youthmy11-ai.github.io/cryptobill.html)** — Generate clean print/PDF freelancer invoices with offline QR payment codes and shareable payment links.
+- **[TokenGuard Scanner (Live Free + Pro Web App)](https://youthmy11-ai.github.io/tokenaudit.html)** — Live browser EVM proxy/bytecode & Solana SPL / Token-2022 authority/extension/holder concentration risk scanner with Pro batch watchlist export.
+- **[CryptoBill Forge (Live Free Web App)](https://youthmy11-ai.github.io/cryptobill.html)** — Generate clean print/PDF freelancer invoices with offline Solana Pay USDC / BEP20 / TRC20 QR payment codes and shareable payment links.
 - **[TokenCost Lab (Live Free Web App)](https://youthmy11-ai.github.io/tokencalc.html)** — Client-side LLM token counter, 7-model API cost calculator & 1-click CryptoBill client invoice exporter.
 - **[JSON2Sheet & PII Masker (Live Free Web App)](https://youthmy11-ai.github.io/json2sheet.html)** — Flatten nested JSON APIs into CSV/TSV/Markdown tables with formula guard & PII redaction.
 - **[ScopeGuard SOW Builder (Live Free Web App)](https://youthmy11-ai.github.io/sowbuilder.html)** — Draft milestone contracts & Statements of Work with 1-click CryptoBill invoice export.
@@ -18,7 +19,8 @@ Practical, zero-bloat automation tools, Chrome extensions, and client-side micro
 | :--- | :--- | :--- | :--- |
 | **AutoShorts Studio v1.1.0** | Community + Pro | [`autoshorts-studio`](https://github.com/youthmy11-ai/autoshorts-studio) | Automated 9:16/16:9/1:1 batch short-form video creator with SHA-256 deduplication, beat-milestone trimming & beat-synced `.srt` captions |
 | **WebLead & Table Extractor v1.1.0** | Lite + Pro (MV3) | [`weblead-extractor`](https://github.com/youthmy11-ai/weblead-extractor) | Extract HTML tables, ARIA grids, Schema.org JSON-LD, public emails & links cleanly to CSV/JSON/Markdown |
-| **ForgeSuite MCP Server** | Free Open-Source | [`forgesuite-mcp.mjs`](https://youthmy11-ai.github.io/mcp.html) | Single-file zero-dependency stdio MCP server with 4 offline DevSecOps & billing tools |
+| **ForgeSuite MCP Server v1.1.0** | Free Open-Source | [`forgesuite-mcp.mjs`](https://youthmy11-ai.github.io/mcp.html) | Single-file zero-dependency stdio MCP server with 6 DevSecOps, EVM/Solana token risk & billing tools |
+| **TokenGuard Scanner** | Free + Pro | [`tokenaudit.html`](https://youthmy11-ai.github.io/tokenaudit.html) | Browser EVM proxy/opcode & Solana Token-2022 rug/authority/holder risk scanner + 25-token batch watchlist |
 | **CryptoBill Forge** | Free + Pro | [`youthmy11-ai.github.io`](https://youthmy11-ai.github.io/cryptobill.html) | Privacy-first browser invoice & payment link builder (zero server tracking) |
 | **TokenCost Lab** | Free Web Utility | [`tokencalc.html`](https://youthmy11-ai.github.io/tokencalc.html) | Estimate prompt tokens & monthly agent API budgets across GPT-5, Claude 4.5, Gemini 2.5 & DeepSeek V3 |
 | **JSON2Sheet & PII Masker** | Free Web Utility | [`json2sheet.html`](https://youthmy11-ai.github.io/json2sheet.html) | Nested JSON flattener to CSV/Markdown with CSV formula guard & secret redaction |
