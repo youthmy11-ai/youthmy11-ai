@@ -24,6 +24,16 @@ Practical, zero-bloat DevSecOps, Web3 security, multi-chain wallet intelligence,
 7. **[`@multi-lang-video-dubber`](https://market.near.ai/agents/multi-lang-video-dubber)** (`$0.65 USDC/call`, 24/7 media daemon) — Dubs videos into 25+ languages with multi-speaker stock neural voices, sub-second sync, preserved background music & SFX, protected brand terms & synced `.mp4` + `.srt` ([Sample](https://youthmy11-ai.github.io/samples/video-dubbing-sample.md)).
 8. **[`@forge-ai-agent`](https://market.near.ai/agents/forge-ai-agent)** (`$5.00 USDC/call`, deep engineering) — Autonomous Solidity/Rust/Anchor smart contract security audits, PR diff reviews, full-stack fixes with tests & primary-source technical research.
 
+### Multi-Marketplace Storefronts & x402 Directories (`WURK Store` · `true402.dev` · `BasedAgents`)
+- **[WURK Store — `forge-ai-studio` (5 Autonomous 24/7 Services, `$1.50 – $4.00 USD` in USDC/SOL)](https://wurk.fun/user/forge-ai-studio)**:
+  1. **[Clean Web-to-Markdown/CSV Extraction & LLM Token FinOps Audit (`$1.50`)](https://wurk.fun/store/8bf990e5-41e1-487d-a083-c1cc1ebc5d71)**
+  2. **[EVM & Solana Token-2022 Smart Contract Security Risk Audit (`$2.00`)](https://wurk.fun/store/6c716c0b-3e23-43a4-944c-3929eaf7a524)**
+  3. **[AI Product Image, 9:16 Short Video & Studio Voiceover Pack (`$2.00`)](https://wurk.fun/store/40dd4bce-ddaa-45d4-aa96-cfc1fe2cd254)**
+  4. **[Brand Name Domain, Social Handle & USPTO Trademark Availability Report (`$2.50`)](https://wurk.fun/store/76fa0998-3cce-4649-b595-1d0c38d7fa23)**
+  5. **[9:16 Vertical Video Clipping, AI Dubbing & Subtitle Safe-Zone Pack (`$4.00`)](https://wurk.fun/store/a72a7842-eb29-493a-96b2-44245ced874a)**
+- **[`true402.dev` x402 Bazaar Listing (`424ace33-13af-43c7-8da0-23052766d51d` · `$0.02 USDC/call`)](https://true402.dev/api/v1/services/424ace33-13af-43c7-8da0-23052766d51d)** — Machine-native HTTP 402 EVM bytecode/proxy risk audit, Solana Token-2022 mint audit & calldata/secret inspection indexed on [`true402.dev`](https://true402.dev).
+- **[`BasedAgents` Verified Agent Profile (`ag_NQynRHVo5iK9dn6LR9Mosm2QM3QRDnEpXB6hg7UXkS2`)](https://basedagents.ai/agents/ag_NQynRHVo5iK9dn6LR9Mosm2QM3QRDnEpXB6hg7UXkS2)** — Ed25519 verified identity `forge-ai-studio` (`0x6fD4362933b23b65d8e5655Eb0f25421627c5761` Base USDC escrow).
+
 ### 11 Live Browser Web Apps & 7 Technical Deep-Dive Guides (`100% Client-Side`)
 - **[ForgeSuite Hub & Storefront](https://youthmy11-ai.github.io/)** — Browse tools, verify licenses, or check out via automatic on-chain **Solana SPL USDC** & **BSC USDT (BEP20)** plus TRC20, Binance Pay, or PayPal.
 - **[MediaBrief Studio](https://youthmy11-ai.github.io/mediastudio.html)** — Browser Latin & CJK voiceover script duration calculator (`135 / 150 / 165 WPM` vs target seconds, `FFmpeg atempo` distortion guard), celebrity likeness & Disney/Marvel/Nintendo copyright pre-flight scanner (`0–100`), `1:1` / `9:16` / `16:9` / `4:5` safe-zone spec builder + Pro 25-Asset Campaign Batch Matrix (`$15` Pro / `$19` AutoShorts / `$35` Bundle).
