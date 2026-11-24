@@ -1,18 +1,19 @@
 # ForgeSuite Studio (`youthmy11-ai`)
 
-[![Official MCP Registry: io.github.youthmy11-ai/forgesuite-mcp · v1.5.0 Active](https://img.shields.io/badge/MCP_Registry-io.github.youthmy11--ai%2Fforgesuite--mcp_·_v1.5.0_Active-10b981?style=for-the-badge)](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite)
+[![Official MCP Registry: io.github.youthmy11-ai/forgesuite-mcp · v1.6.0 Active](https://img.shields.io/badge/MCP_Registry-io.github.youthmy11--ai%2Fforgesuite--mcp_·_v1.6.0_Active-10b981?style=for-the-badge)](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite)
 
-Practical, zero-bloat DevSecOps, Web3 security, multi-chain wallet intelligence, AI creator media, brand launch, and client-side micro-SaaS utilities built for AI builders, creators, traders, solo founders, and independent freelancers.
+Practical, zero-bloat DevSecOps, Web3 security, multi-chain wallet intelligence, SSRF-hardened web extraction, AI creator media, brand launch, and client-side micro-SaaS utilities built for AI builders, creators, traders, solo founders, and independent freelancers.
 
-### Official MCP Registry Server (`io.github.youthmy11-ai/forgesuite-mcp · v1.5.0 Active`)
-- **Registry Listing:** [`io.github.youthmy11-ai/forgesuite-mcp · v1.5.0 Active`](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite) · **Landing Page:** **[https://youthmy11-ai.github.io/mcp.html](https://youthmy11-ai.github.io/mcp.html)**
+### Official MCP Registry Server (`io.github.youthmy11-ai/forgesuite-mcp · v1.6.0 Active`)
+- **Registry Listing:** [`io.github.youthmy11-ai/forgesuite-mcp · v1.6.0 Active`](https://registry.modelcontextprotocol.io/v0.1/servers?search=forgesuite) · **Landing Page:** **[https://youthmy11-ai.github.io/mcp.html](https://youthmy11-ai.github.io/mcp.html)**
+- **Zero-Install Remote Streamable-HTTP MCP (Cloudflare Global Edge):** **`https://forgeaudit-x402.forgesuite-x402-edge.workers.dev/mcp`** ([Server Card](https://youthmy11-ai.github.io/.well-known/mcp.json))
 - **1-Click IDE Install:**
-  - [⚡ **Install in VS Code**](vscode:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [⚡ **Install in VS Code Insiders**](vscode-insiders:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [📦 **Download `.mcpb` Bundle (`v1.5.0`)**](https://github.com/youthmy11-ai/youthmy11-ai.github.io/releases/download/v1.5.0/forgesuite-mcp.mcpb)
-- **1-Line CLI (`Node 20+`, `0` npm dependencies, `10` tools):**
+  - [⚡ **Install in VS Code**](vscode:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [⚡ **Install in VS Code Insiders**](vscode-insiders:mcp/install?%7B%22name%22%3A%22forgesuite%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22github%3Ayouthmy11-ai%2Fyouthmy11-ai.github.io%22%5D%7D) · [📦 **Download `.mcpb` Bundle (`v1.6.0`)**](https://github.com/youthmy11-ai/youthmy11-ai.github.io/releases/download/v1.6.0/forgesuite-mcp.mcpb)
+- **1-Line CLI (`Node 20+`, `0` npm dependencies, `11` tools):**
   ```bash
   npx --yes github:youthmy11-ai/youthmy11-ai.github.io
   ```
-  Exposes `envshield_scan`, `calldata_decode`, `tokencost_estimate`, `cryptobill_quote`, `evm_token_risk_scan`, `solana_mint_risk_scan`, `brand_domain_handle_scan`, `multi_chain_wallet_scan`, `subtitle_caption_audit`, and `media_brief_audit` for VS Code, Claude Code, Cursor, Antigravity & Windsurf.
+  Exposes `envshield_scan`, `calldata_decode`, `tokencost_estimate`, `cryptobill_quote`, `evm_token_risk_scan`, `solana_mint_risk_scan`, `brand_domain_handle_scan`, `multi_chain_wallet_scan`, `subtitle_caption_audit`, `media_brief_audit`, and `web_clean_extract` for VS Code, Claude Code, Cursor, Antigravity & Windsurf.
 
 ### 8 Live 24/7 Autonomous A2A + x402 Cloud Agents (`$440 USDC` Active Marketplace Bids)
 1. **[`@wallet-activity-scanner`](https://market.near.ai/agents/wallet-activity-scanner)** (`$0.15 USDC/call`, `<4s`) — Parallel 6-chain Ethereum/Base/Arbitrum/BSC/Polygon/Solana wallet portfolio, USDC/USDT/DAI/PYUSD balances, EIP-7702 delegation, Gnosis Safe `M-of-N` signers & latest 10 Solana signatures.
@@ -54,7 +55,7 @@ Practical, zero-bloat DevSecOps, Web3 security, multi-chain wallet intelligence,
 ### Open-Core Tools & Extensions
 | Product | Edition | Repository | Purpose |
 | :--- | :--- | :--- | :--- |
-| **ForgeSuite MCP Server v1.5.0** | Free Open-Source (Registry Active) | [`mcp.html`](https://youthmy11-ai.github.io/mcp.html) | 1-click VS Code / `npx` zero-dep MCP server (`io.github.youthmy11-ai/forgesuite-mcp`) with 10 DevSecOps, wallet, EVM/Solana risk, voiceover/9:16 media QC, brand & billing tools |
+| **ForgeSuite MCP Server v1.6.0** | Free Open-Source (Registry Active) | [`mcp.html`](https://youthmy11-ai.github.io/mcp.html) | Zero-install Remote Streamable-HTTP (`https://forgeaudit-x402.forgesuite-x402-edge.workers.dev/mcp`) + 1-click VS Code / `npx` MCP server (`io.github.youthmy11-ai/forgesuite-mcp`) with 11 DevSecOps, wallet, EVM/Solana risk, web extract, media QC, brand & billing tools |
 | **AutoShorts Studio v1.1.0 + ClipCaption Lab** | Community + Pro (`$19`) | [`autoshorts-studio`](https://github.com/youthmy11-ai/autoshorts-studio) | Automated 9:16/16:9/1:1 batch short-form video creator + browser 1080x1920 animated `.ass` & 25-file subtitle studio |
 | **WebLead & Table Extractor v1.1.0** | Lite + Pro MV3 (`$15`) | [`weblead-extractor`](https://github.com/youthmy11-ai/weblead-extractor) | Extract HTML tables, ARIA grids, Schema.org JSON-LD, public emails & links cleanly to CSV/JSON/Markdown |
 | **WalletLens, TokenGuard & BrandGuard** | Free + Pro (`$35` Bundle) | [`youthmy11-ai.github.io`](https://youthmy11-ai.github.io/walletcheck.html) | Browser 6-chain wallet/Safe/EIP-7702 inspector, EVM/Solana token risk scanner & 8-TLD brand readiness matrix |
